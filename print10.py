@@ -11,7 +11,8 @@ print('hello!')
 o = 'hello'
 if o == 'hello':
     print(o)
-elif o =='nested':
-        print("nested")
 else:
-    print('Nothing happens')
+     if o =='nested':
+        print("nested")
+     else:
+        print('Nothing happens')
