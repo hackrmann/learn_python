@@ -22,3 +22,5 @@ alph = ['a','b','c',[],'d','e']
 alph2 = [abc for abc in alph if (bool(abc)==True)]
 print(alph2)
 print(bool(alph[3]))
+alph3 = [abc if bool(abc)==False else abc for abc in alph ]
+print(alph3)

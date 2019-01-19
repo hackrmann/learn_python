@@ -1,6 +1,5 @@
 def square(num):    return num*num
-def four(square):
-    return square*square
+def four(square):   return square*square
 cube = lambda num: num**3
 print(square(4)," ",cube(4))
 print(four(square(4)))
